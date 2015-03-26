@@ -1,0 +1,23 @@
+.page-template-template-sponsorship{
+
+  //Mods the navigations
+  .right{
+    display: none;
+  }
+
+
+  h1{
+    color: $primary-color;
+    margin: 25px 0;
+  }
+
+
+  .caption{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  h4{
+    color: $primary-color;
+  }
+}

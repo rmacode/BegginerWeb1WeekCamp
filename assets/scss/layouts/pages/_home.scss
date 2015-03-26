@@ -1,0 +1,93 @@
+.home{
+  .content{
+    section.section{
+      padding: 80px 0;
+    }
+  }
+
+  .introduction{
+    margin: 25px 0;
+    color: #fff;
+  }
+
+
+  .orbit-container .orbit-slides-container{
+    padding-bottom: 0;
+  }
+
+  #support-pool{
+    fill: $secondary-color;
+  }
+
+}
+
+.provide-scholarship{
+  padding-top: 50px;
+}
+
+.main-nav{
+  left: auto !important;
+}
+
+.first-section{
+  background-color: $topbar-bg;
+}
+
+.alt-section{
+  background-color: $secondary-color;
+}
+
+.orbit-container{
+
+  .orbit-slides-container{
+    padding: 34px;
+    margin-top: 25px;
+  }
+
+}
+
+.sponsor{
+
+  .sponsor-image{
+    display: block;
+  }
+  .sponsor-text{
+    display: none;
+  }
+
+  &:hover{
+    .sponsor-image{
+      display: none;
+    }
+    .sponsor-text{
+      display: block;
+    }
+
+  }
+}
+
+.scholarships{
+  .ginput_quantity{
+    display: inline;
+  }
+}
+
+section{
+
+  h2{
+    color: $primary-color;
+  }
+
+  h3{
+    color: #000;
+  }
+
+  .gform_wrapper{
+    .ginput_complex{
+
+      label{
+        display: none;
+      }
+    }
+  }
+}

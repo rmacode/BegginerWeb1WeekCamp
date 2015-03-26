@@ -1,0 +1,93 @@
+.top-bar{   height: 55px; }
+
+.top-bar-section{
+
+  ul{
+
+    li{
+
+      a {
+
+        &:hover {
+          background: #215f8b !important;
+        }
+
+      }
+
+      &:hover {
+        background: #215f8b !important;
+        
+        a{
+          background: #215f8b !important;
+        }
+      }
+
+    }
+
+  }
+
+  .right{
+      li#follow-twitter{
+        a.button{
+          &:hover{
+            background: transparent !important;
+          }
+        }
+        &:hover{
+          background: transparent !important;
+        }
+    }
+
+    .has-dropdown{
+      background: transparent;
+      &:hover {
+        a.button{
+          padding-bottom: 30px;
+          background: #215f8b;
+          color: #CCC !important;
+        }
+
+      }
+      a{
+        background: #215f8b;
+        top: 10px;
+        color: #CCC;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.5);
+        -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.5);
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,.5);
+
+        &:after{
+          top: 15.5px;
+        }
+
+      }
+
+      .dropdown{
+        background: #215f8b;
+        border-bottom-left-radius: 3px !important;
+        border-bottom-right-radius: 3px !important;
+        color: #CCC !important;
+        li{
+          background: #215f8b;
+          border-bottom-left-radius: 3px !important;
+          border-bottom-right-radius: 3px !important;
+          color: #CCC !important;
+        }
+        a{
+          background: #215f8b !important;
+          line-height: 30px;
+          border-bottom-left-radius: 3px !important;
+          border-bottom-right-radius: 3px !important;
+          color: #CCC !important;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+.top-bar-section ul li.rma-navigation {
+  background: #215f8b;
+}

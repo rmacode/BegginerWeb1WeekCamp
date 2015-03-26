@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="urlInput" style="width: 350px" />
+    </div>
+    <div>
+        <input type="text" id="urlOutput" style="width: 350px" />
+    </div>
+
+    <script>
+        jQuery(document).ready(function($){
+            $('#urlInput').change( function(){
+                var string  = '<img src="*" />';
+                $('#urlOutput').val( string.replace('*', $(this).val().replace('www.dropbox.com', 'dl.dropboxusercontent.com') ) );
+
+            });
+        });
+    </script>
+</body>
+</html>

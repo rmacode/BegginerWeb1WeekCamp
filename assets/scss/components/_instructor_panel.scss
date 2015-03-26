@@ -1,0 +1,29 @@
+.instructor-panel{
+  max-height: 150px;
+  overflow: auto;
+  position: relative;
+
+  @include single-transition(max-height .8s);
+
+  .panel-control{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    i {
+      @include single-transition(transform .8s);
+    }
+  }
+
+}
+
+.instructor-panel-max{
+  max-height: 450px;
+  @include single-transition(max-height .8s);
+
+  .panel-control{
+    i {
+      @include single-transition(transform .8s);
+      transform: rotate(180deg);
+    }
+  }
+}
